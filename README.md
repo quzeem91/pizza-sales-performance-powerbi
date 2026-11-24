@@ -13,17 +13,6 @@ The report combines transaction-level sales and monthly target data in a dimensi
 
 It also includes an NGN/USD currency toggle, dynamic format strings, and interactive metric selection.
 
-**Key figures from the all-period NGN view:**
-
-| Metric | Result |
-|---|---:|
-| Revenue | ₦13.10bn |
-| Target | ₦13.87bn |
-| Target Variance | -5.57% |
-| Total Orders | 999,999 |
-| Total Quantity | 4,537,146 |
-| Branches | 5 |
-| Pizza Offerings | 16 |
 
 ## Report Preview📊
 
