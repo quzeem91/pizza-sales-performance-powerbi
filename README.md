@@ -1,10 +1,12 @@
 # Pizza Sales & Target Performance | Power BI
 
-**Turning transaction and target data into a decision-ready view of sales performance across branches, products, and time.**
+**Turning transaction and target data into a decision-ready view of sales performance across branches, products, and pizza offerings.**
 
-[**Open the interactive report ↗**](https://app.powerbi.com/view?r=eyJrIjoiZTQ4N2Y3NGUtNDg2Mi00Y2ZlLWFiNDktMDExZWE4MmE5NzIwIiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9) · [Explore the DAX](Power_BI_Instructor_Completed_Report_DAX.md) · [Connect with me](ADD_LINKEDIN_URL)
+**<a href="https://app.powerbi.com/view?r=eyJrIjoiYmRlOWMwMDUtYTczZi00NWFmLTg2ODMtMzJmNjY1YjViYTg5IiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9" target="_blank" rel="noopener noreferrer">
+  Open the interactive report ↗
+</a>** · [Explore the DAX](Power_BI_Instructor_Completed_Report_DAX.md) · [Connect with me](https://linkedin.com/in/olamidequzeem91)
 
-I developed this end-to-end Power BI project to address a practical business question: **Are sales meeting target, and where should the business focus its attention?** The report brings together sales and target data in a dimensional model, then makes performance explorable through interactive pages, a currency toggle, and context-aware visuals.
+I developed this end-to-end Power BI report solution to address a practical business question: **Are sales meeting target, and where should the business focus its attention?** The report brings together sales and target data in a dimensional model, then makes performance explorable through interactive pages, a currency toggle, and context-aware visuals.
 
 > **At a glance:** ₦13.10bn revenue · ₦13.87bn target · **5.57% below target** · 5 branches · 16 pizza offerings
 
@@ -127,7 +129,7 @@ erDiagram
 
 ## Data Preparation and Modeling
 
-Power Query was used to connect to and transform the source data, merge and append tables, and unpivot data where appropriate. The data was reshaped and keyed for the dimensional model.
+Power Query was used to connect to and transform the source data, merge and append tables, and unpivot data where appropriate. I also created and standardized the key columns needed to connect both fact tables to the same dimensions—for example, matching branch IDs, pizza IDs, and dates across sales and targets. These transformations prepared the tables for the shared-dimension model and enabled consistent filtering across both facts.
 
 The report model uses active, one-to-many relationships from the shared dimensions to both fact tables. Sales are recorded at transaction grain, while targets are monthly by branch and pizza offering. Target comparisons should therefore be interpreted at a compatible time grain.
 
@@ -169,50 +171,19 @@ SWITCH(
 
 The report also uses dynamic format strings for currency display, a Metric field parameter, and DAX measures that return color values for conditional formatting.
 
-## Tools and Skills Demonstrated
 
-- **Business analysis:** Translate a broad performance question into KPIs, comparisons, and report navigation.
-- **Data preparation:** Use Power Query (M) to reshape and prepare data for analysis.
-- **Semantic modeling:** Design fact and shared-dimension tables with active one-to-many relationships.
-- **DAX:** Build calculated columns, a calculated Calendar table, explicit measures, and conditional-formatting logic.
-- **Advanced report interactions:** Implement a Field Parameter, an NGN/USD toggle, and dynamic format strings.
-- **Data storytelling:** Use KPI cards, trends, comparisons, matrix data bars, conditional formatting, and Smart Narrative.
-- **Delivery:** Publish an interactive report to Power BI Service and provide a public report link.
 
-## Repository Contents
+## Access Report & Project Files
 
-Suggested structure for the portfolio repository:
-
-```text
-.
-├── assets/
-│   ├── executive-summary.png
-│   └── branch-pizza-performance.png
-├── docs/
-│   ├── DAX.md
-│   └── case-study.pdf
-├── report/
-│   └── pizza-sales-dashboard.pbix
-└── README.md
-```
-
-Only add files you have permission to share. If the PBIX or case study cannot be distributed publicly, omit it or provide an approved access link instead.
-
-## Open the Report
-
-- **Interactive report:** [View the published Power BI report](https://app.powerbi.com/view?r=eyJrIjoiZTQ4N2Y3NGUtNDg2Mi00Y2ZlLWFiNDktMDExZWE4MmE5NzIwIiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9)
+- **Interactive report:** [View the published Power BI report](https://app.powerbi.com/view?r=eyJrIjoiYmRlOWMwMDUtYTczZi00NWFmLTg2ODMtMzJmNjY1YjViYTg5IiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9)
 - **PBIX file:** [Download the Power BI file](ADD_PBIX_LINK_OR_REPOSITORY_PATH)
 - **PDF export:** [View the report PDF](docs/case-study.pdf)
 - **DAX reference:** [View the DAX documentation](Power_BI_Instructor_Completed_Report_DAX.md)
 
-> **Note:** The report is published to the web and is publicly accessible. GitHub sanitizes embedded `<iframe>` elements in README files, so use the link above to open the interactive report. Publish to Web should only be used for content and data approved for public release.
 
-## Notes and Limitations
-
-- Sales are transaction-level, while targets are monthly. Daily target comparisons may not be meaningful without a defined allocation method.
-- Currency conversion uses the exchange rate associated with each fact row's year-month.
 
 
 ## Author
 
-**[Quzeem Olamide]** — [Portfolio](https://quzeem91.github.io) · [LinkedIn](https://linkedin.com/in/olamidequzeem91)
+**Quzeem Olamide** 
+— [Portfolio](https://quzeem91.github.io) · [LinkedIn](https://linkedin.com/in/olamidequzeem91)
