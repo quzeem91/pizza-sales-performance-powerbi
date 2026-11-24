@@ -20,7 +20,6 @@ I developed this end-to-end Power BI report solution to address a practical busi
 
 ![Branch and Pizza Performance report page](assets/branch-pizza-performance.png)
 
-Add the screenshots to `assets/` using the filenames above. Use images that you have permission to publish.
 
 ## Business Challenge
 
