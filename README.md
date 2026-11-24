@@ -1,5 +1,5 @@
 
-#  Pizza Sales & Target Performance 🍕| Power BI
+# Dominos Pizza Sales & Target Performance Report🍕| Power BI
 
 **An interactive analysis of sales and target performance across branches, pizza offerings, and reporting periods.**
 
