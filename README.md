@@ -195,7 +195,7 @@ The analysis can be extended with operational data such as inventory, product av
 │
 ├── docs/
 │   ├── DAX-Reference.docx
-│   └── case-study.pdf
+│   └── Report.pdf
 │
 ├── report/
 │   └── Pizza-Sales-and-Target-Performance.pbix
@@ -205,9 +205,9 @@ The analysis can be extended with operational data such as inventory, product av
 
 ## Access Report & Project Files📥
 
--  **Interactive Report:**📊 [Open Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYmRlOWMwMDUtYTczZi00NWFmLTg2ODMtMzJmNjY1YjViYTg5IiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9)
--  **Power BI File:**💻 [Download PBIX](report/Pizza-Sales-and-Target-Performance.pbix)
--  **PDF Export:**📄 [View Report PDF](docs/case-study.pdf)
+-  **Interactive Report:** 📊 [Open Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYmRlOWMwMDUtYTczZi00NWFmLTg2ODMtMzJmNjY1YjViYTg5IiwidCI6IjViMmFkZmYyLTdkMzctNDcyMS05M2FiLTYyNGZmMDYyNmRjMCJ9)
+-  **Power BI File:** 💻 [Download PBIX](report/Pizza-Sales-and-Target-Performance.pbix)
+-  **PDF Export:** 📄 [View Report PDF](docs/Report.pdf)
 -  **DAX Documentation:**🧮 [View DAX Reference](docs/DAX-Reference.docx)
 
 
